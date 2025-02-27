@@ -58,7 +58,7 @@ pkgs: let
         cargoDeps = pkgs.rustPlatform.fetchCargoTarball {
           inherit (old) src;
           name = "${old.pname}-${old.version}";
-          hash = "sha256-VOmMNEdKHrPKJzs+D735Y52y47MubPwLlfkvB7Glh14=";
+          hash = "sha256-EDIJw2lZ5nhANTp8bdkkyeSMHD2btHZ+IeN2ROkJN9o=";
         };
       });
       rfc3986-validator = prev.rfc3986-validator.overridePythonAttrs (old: {
